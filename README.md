@@ -69,7 +69,6 @@ Both the embedding model and the chat model are proxied through NVIDIA's `https:
 ├── .gitignore
 ├── chat.js                 # retrieval + streamed LLM answer
 ├── docker-compose.yml      # spins up a local Qdrant instance
-├── embeddings.txt          # scratch/output file, not read by the scripts
 ├── index.js                # ingestion entry point
 ├── package.json
 ├── package-lock.json
