@@ -82,7 +82,7 @@ Both the embedding model and the chat model are proxied through NVIDIA's `https:
 2. Open `index.js` and update the call at the bottom to point at your file and ask your question:
 
 ```js
-createEmbeddingsFromFile("./data/notes_02.pdf", "System wide deployement");
+createEmbeddingsFromFile("./data/<file_name>.pdf", "Your question");
 ```
 
 3. Run the pipeline:
